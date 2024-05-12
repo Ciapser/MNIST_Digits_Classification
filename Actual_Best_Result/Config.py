@@ -24,7 +24,7 @@ Augment_params = dict(reduced_set_size = None,
 
 Model_parameters = dict(model_architecture = "SimpleMnist",
                         device = "GPU:0",
-                        train = True,
+                        train = False,
                         epochs = 30,
                         patience = 10,
                         batch_size = 128,

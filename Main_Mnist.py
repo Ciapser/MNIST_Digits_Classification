@@ -1,11 +1,6 @@
 import Config
-#from NeuroUtils import Core
-#from NeuroUtils import ML_assets as ml
+from NeuroUtils import Core
 
-#For working with unreleased version directly from local repository, to test things out
-import sys
-sys.path.insert(0, "C:\\Users\\Stacja Robocza\\Desktop\\NeuroUtils\\NeuroUtils")
-import Core
 import numpy as np
 import os
 import pandas as pd
